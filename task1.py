@@ -27,8 +27,7 @@ def enterpage():
 					j=='4'
 	
 			fw.wr(worddict[i])
-                	print("valid book pages")
-		elif:
-			print("it is not a valid book")
+                	print("will show you the pages")
+
 	
 					
