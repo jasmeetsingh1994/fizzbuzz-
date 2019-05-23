@@ -20,8 +20,15 @@ def enterpage():
 	for a in range(0,(25*pages)):
 		count=1
 		if count>=(25*pages):
+			for j in i:
+				if j=='o' or j =='0':
+					j='0'
+				elif j=='a' or j=='A':
+					j=='4'
+	
+			fw.wr(worddict[i])
                 	print("valid book pages")
-		else:
+		elif:
 			print("it is not a valid book")
 	
 					
