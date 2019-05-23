@@ -20,5 +20,8 @@ def enterpage():
 	for a in range(0,(25*pages)):
 		count=1
 		if count>=(25*pages):
-                	fw.write(	
+                	print("valid book pages")
+		else:
+			print("it is not a valid book")
+	
 					
